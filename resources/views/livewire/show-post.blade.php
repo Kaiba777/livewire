@@ -1,6 +1,10 @@
 <div>
     <label for="date">Date:</label>
     <input type="text" data-picker>
+    <br>
+    <input wire:model.live="query">
+ 
+    <button wire:click="resetQuery">Reset Search</button>
 </div>
 
 @assets

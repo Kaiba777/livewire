@@ -12,5 +12,7 @@
         <input type="text" id="title" wire:model.live="title">
 
         <button type="submit">Enregistrer</button>
+
+        <span wire:loading>En cours...</span>
     </form>
 </div>

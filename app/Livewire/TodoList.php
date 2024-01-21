@@ -10,6 +10,9 @@ class TodoList extends Component
 
     public $todo = '';
 
+    public $query = '';
+
+
     public function mount()
     {
         // Affiche tous les tâches existants dans la Base de données à l'utilisateur
