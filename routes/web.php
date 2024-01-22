@@ -4,6 +4,7 @@ use App\Livewire\Counter;
 use App\Livewire\ShowPost;
 use App\Livewire\TodoList;
 use App\Livewire\CreatePost;
+use App\Livewire\Form;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,5 @@ Route::get('/post', CreatePost::class);
 
 Route::get('/post/{id}', ShowPost::class);
 Route::get('/todolist', TodoList::class);
+
+Route::get('/form', Form::class);
